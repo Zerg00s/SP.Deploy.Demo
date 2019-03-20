@@ -5,7 +5,7 @@ Param(
     [String]$Password = ""
 )
 
-.\Connect-SharePoint.ps1
+. .\Connect-SharePoint.ps1
 
 Connect-SharePoint -TARGET_SITE_URL $TARGET_SITE_URL -Account $Account -Password $Password
 
